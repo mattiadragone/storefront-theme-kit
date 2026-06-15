@@ -153,6 +153,28 @@ Each preset must have at least one demo store using authentic content:
 - Support response within 2 business days.
 - Public changelog of theme updates.
 
+## Deceptive code — Partner Program compliance
+
+These rules are compliance requirements under the Shopify Partner Program Agreement and API Terms of Service. Violations can result in removal from the Theme Store.
+
+### No code obfuscation
+
+Do not obfuscate theme code. Obfuscation transforms readable code into deliberately hard-to-parse output. There is no legitimate reason to obfuscate a theme — it hides behavior from Shopify review, harms performance, and is explicitly prohibited.
+
+Standard minification (removing whitespace and comments) is separate and fine for third-party libs. First-party theme code must be readable.
+
+### No search engine cloaking
+
+Do not include code that presents different content to search engine crawlers than to human visitors. Cloaking is prohibited even when the intent is to improve Lighthouse or PageSpeed scores — manipulating what Google sees can result in removal from the Theme Store and Google penalties for the merchant's store.
+
+### No search engine manipulation
+
+Do not include code that manipulates search rankings through deceptive techniques — hidden keyword stuffing, invisible links, fake redirects, or other black-hat SEO tactics.
+
+### General compliance principle
+
+Act with integrity and in the best interests of the merchants using the theme. Regularly review compliance with the [Partner Program Agreement](https://www.shopify.com/partners/terms) and the [API Terms of Service](https://www.shopify.com/legal/api-terms).
+
 ## Submission checklist (run before submitting)
 
 1. Lighthouse mobile + desktop ≥ 60 (performance) and ≥ 90 (a11y) on home, product, collection.
@@ -170,6 +192,7 @@ Each preset must have at least one demo store using authentic content:
 13. Tested in Safari, Chrome, Firefox, Edge, iOS Safari, Android Chrome.
 14. Theme works with all apps uninstalled.
 15. Demo store uses authentic content, no placeholders.
+16. No obfuscated code, no cloaking, no SEO manipulation.
 
 ## References
 
