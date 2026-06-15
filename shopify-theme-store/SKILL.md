@@ -174,6 +174,6 @@ Each preset must have at least one demo store using authentic content:
 ## References
 
 - https://shopify.dev/docs/storefronts/themes/store/requirements
-- https://shopify.dev/docs/storefronts/themes/store/build/submission
+- https://shopify.dev/docs/storefronts/themes/store/review-process/submit-theme
 - https://shopify.dev/docs/storefronts/themes/best-practices/performance
 - https://shopify.dev/docs/storefronts/themes/best-practices/accessibility

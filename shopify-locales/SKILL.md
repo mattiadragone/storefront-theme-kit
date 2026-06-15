@@ -175,5 +175,5 @@ Run `theme-check` with the `MissingTemplate` and `TranslationKeyExists` checks e
 ## References
 
 - https://shopify.dev/docs/storefronts/themes/architecture/locales
-- https://shopify.dev/docs/api/liquid/filters/t
-- https://shopify.dev/docs/storefronts/themes/markets/localization
+- https://shopify.dev/docs/api/liquid/filters/translate
+- https://shopify.dev/docs/storefronts/themes/markets/multiple-currencies-languages

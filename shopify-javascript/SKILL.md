@@ -179,6 +179,6 @@ See the `shopify-accessibility` skill for detailed component patterns.
 
 - https://shopify.dev/docs/storefronts/themes/architecture/sections/section-assets
 - https://shopify.dev/docs/storefronts/themes/architecture/sections/section-schema#javascript-tag
-- https://shopify.dev/docs/storefronts/themes/best-practices/custom-elements-and-javascript
+- https://shopify.dev/docs/storefronts/themes/best-practices/performance
 - https://shopify.dev/docs/api/ajax
 - https://developer.mozilla.org/docs/Web/Web_Components

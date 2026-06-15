@@ -222,7 +222,7 @@ input.addEventListener('input', debounce((e) => {
 ## References
 
 - https://shopify.dev/docs/storefronts/themes/best-practices/performance
-- https://shopify.dev/docs/storefronts/themes/best-practices/performance/lighthouse
+- https://shopify.dev/docs/storefronts/themes/best-practices/performance
 - https://shopify.dev/docs/storefronts/themes/tools/theme-inspector
 - https://web.dev/vitals/
 - https://shopify.dev/docs/api/liquid/filters/image_tag
