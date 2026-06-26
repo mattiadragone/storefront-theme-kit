@@ -118,6 +118,23 @@ claude --plugin-dir ./claude-shopify-themes
 
 ---
 
+## Usage
+
+Once installed, **just describe what you want** in a session inside your Shopify theme repo — the right
+skill triggers automatically:
+
+- *"Create a hero section with a heading and CTA"* → `shopify-build` writes the section, scoping CSS,
+  adding `t:` keys and lazy-loaded images.
+- *"Audit the theme before I merge"* → `shopify-audit` runs `shopify theme check` + its checks and reports
+  each finding with the fix, why it matters, and the knowledge file to read.
+- *"Set up Shopify CLI and a theme-check CI"* → `shopify-tooling` configures the toolchain.
+
+You can also invoke a skill explicitly with `/claude-shopify-themes:shopify-build` (and `:shopify-audit`,
+`:shopify-tooling`). The skills read the rules from `knowledge/` on demand, so the same project rules are
+applied whether you build or audit.
+
+---
+
 ## Skills reference
 
 | Skill | Trigger | Reads from |
